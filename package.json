@@ -4,11 +4,15 @@
   "description": "",
   "main": "es2015.js",
   "scripts": {
-    "test": "./node_modules/.bin/mocha es2015.js"
+    "lint": "./node_modules/.bin/eslint *.js",
+    "lint-fix": "./node_modules/.bin/eslint *.js --fix",
+    "test": "./node_modules/.bin/mocha *.js"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "eslint": "^3.7.1",
+    "eslint-plugin-import": "^1.16.0",
     "mocha": "^3.1.1"
   }
 }
