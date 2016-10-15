@@ -6,7 +6,7 @@
   "scripts": {
     "lint": "./node_modules/.bin/eslint *.js",
     "lint-fix": "./node_modules/.bin/eslint *.js --fix",
-    "test": "./node_modules/.bin/mocha *.js"
+    "test": "./node_modules/.bin/mocha *.js --harmony-tailcalls"
   },
   "pre-push": [
     "test"

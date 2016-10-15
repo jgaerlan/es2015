@@ -9,6 +9,7 @@ module.exports = {
     "import"
   ],
   "rules": {
-    "strict": 0
+    "strict": 0,
+    "no-proto": 0
   }
 };
